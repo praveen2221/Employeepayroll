@@ -214,6 +214,7 @@ function createAndUpdateStorage() {
   
   const setForm = () => {
     setValue("#name", employeePayrollObj._name);
+    setValue("#EMP_ID", employeePayrollObj._EMP_ID);
     setSelectedValues("[name=profile]", employeePayrollObj._profilePic);
     setSelectedValues("[name=gender]", employeePayrollObj._gender);
     setSelectedValues("[name=department]", employeePayrollObj._department);

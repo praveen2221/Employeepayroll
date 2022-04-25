@@ -13,7 +13,7 @@ const getEmployeePayrollDataFromStorage = () => {
   
 
 const createInnerHTML =()=>{
-    const headerHTML=" <th>Profile</th><th>Name</th><th>EMP ID</th><th>Gender</th><th>Departments</th><th>Salary</th><th>StartDate</th> <th>Email</th><th>Action</th>";
+    const headerHTML=" <th>Profile</th><th>Name</th><th>EMPID</th><th>Gender</th><th>Departments</th><th>Salary</th><th>StartDate</th> <th>Email</th><th>Action</th>";
     let innerHTML=`${headerHTML}`;
     for(const employeePayrollData of empPayrollList ){
         innerHTML=` ${innerHTML}
